@@ -31,7 +31,7 @@ const Main: React.FC = () => {
 				<RadioButton value="Black" handleChange={radioChanged} name="radio" isChecked={color === 'black'}/>
 			</form>
 		{isGameStarted && <Link to="game" className={styles.button}>Continue</Link>}
-		<a href="#" onClick={startNewGame} className={styles.button}>Start new game</a>
+		<button href="#" onClick={startNewGame} className={styles.button}>Start new game</button>
 	</div>
 }
 
