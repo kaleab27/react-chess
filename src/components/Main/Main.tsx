@@ -1,4 +1,4 @@
-import React, {useRef} from "react";
+import React from "react";
 import styles from './Main.module.scss'
 import RadioButton from "../RadioButton/RadioButton";
 import {Link} from "react-router-dom";
