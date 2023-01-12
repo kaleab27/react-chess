@@ -1,5 +1,5 @@
-import React, {Fragment, useEffect, useState} from "react";
-import {BoardNumberByLetter, Colors, FigureData, Figures} from "../../types";
+import React, {Fragment} from "react";
+import {Colors, FigureData, Figures} from "../../types";
 import styles from "./Figure.module.scss";
 import classNames from "classnames";
 
