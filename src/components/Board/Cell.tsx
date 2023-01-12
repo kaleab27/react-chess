@@ -2,7 +2,6 @@ import React from "react";
 import styles from "./Board.module.scss";
 import {BoardNumberByLetter, Colors} from "../../types";
 import classNames from "classnames/bind";
-import figure from "../Figure/Figure";
 
 
 interface CellProps {
